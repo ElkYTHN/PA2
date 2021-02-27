@@ -1,0 +1,65 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: #2b7029;
+    height: 60px;
+}
+
+.inicio{
+    margin-left: 25px;
+    margin-top: 0px;
+    padding-top: 14px;
+    margin-right: 0px;
+}
+
+.barra{
+    display: flex;
+    justify-content: space-between;
+    width: max-content;
+}
+
+.icono{
+    margin-left: 220px;
+}
+
+table{border-collapse:collapse;
+display: table;
+margin-left: auto;
+margin-right: auto;
+margin-top: 100px;
+}
+
+th,tr,td{
+	border:1px solid #000;
+	width:150px;
+	height:45px;
+	vertical-align:middle;
+	text-align:center;
+}
+th{
+	color:#fff;
+	background-color: #252525;
+}
+
+tr:nth-child(odd) td{
+	background-color:#eee;
+}
+
+.tema{
+    text-align: center;
+}
+
+footer{
+    padding-top: 100px;
+    padding-left: 25px;
+}
+  .icon-footer{
+      width: 20px;
+      height: 20px;
+  }
+
+  .derechos{
+      text-align: right;
+  }
+

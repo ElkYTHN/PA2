@@ -1,0 +1,129 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: #2b7029;
+    height: 60px;
+}
+
+.inicio{
+    margin-left: 25px;
+    margin-top: 0px;
+    padding-top: 14px;
+    margin-right: 0px;
+}
+
+.barra{
+    display: flex;
+    justify-content: space-between;
+    width: max-content;
+}
+
+.icono{
+    margin-left: 220px;
+}
+
+td {
+    font-size: 15px;
+    line-height: 20px;
+    padding: 0 20px;
+    text-align: justify;
+    vertical-align: top;
+    width: 50%;
+}
+
+.tema{
+    text-align: center;
+}
+
+.video{
+    text-align: center;
+}
+
+.ref{
+    text-align: center;
+    color:#191d94 ;
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+.columna1{
+    background-color: #83adaf;
+}
+
+.columna2{
+    background-color: #b8b2b2;
+}
+
+.usuario{
+    text-align: center;
+}
+
+.icono-usuario{
+    width: 100px;
+    height: 100px;
+}
+
+form {
+    margin: 0 auto;
+    width: 400px;
+    padding: 1em;
+
+    border-radius: 1em;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  form li + li {
+    margin-top: 1em;
+  }
+  
+  label {
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+  }
+  
+  input,
+  textarea {
+
+    font: 1em sans-serif;
+    width: 300px;
+    box-sizing: border-box;
+    border: 1px solid #999;
+  }
+  
+  input:focus,
+  textarea:focus {
+    border-color: #000;
+  }
+  
+  textarea {
+    vertical-align: top;
+    height: 5em;
+  }
+  
+  .button {
+    padding-left: 90px; 
+  }
+  
+  button {
+    margin-left: .5em;
+  }
+footer{
+    padding-top: 10px;
+    padding-left: 25px;
+}
+  .icon-footer{
+      width: 20px;
+      height: 20px;
+  }
+
+  .derechos{
+      text-align: right;
+  }
+
